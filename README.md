@@ -93,7 +93,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### code
 
 - **Description**: Fork of codex. Orchestrate agents from OpenAI, Claude, Gemini or any provider.
-- **Version**: 0.4.16
+- **Version**: 0.4.20
 - **Source**: source
 - **License**: Apache-2.0
 - **Homepage**: https://github.com/just-every/code/
@@ -203,7 +203,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 
 - **Description**: CLI for Goose - a local, extensible, open source AI agent that automates engineering tasks
 - **Version**: 1.14.0
-- **Source**: binary
+- **Source**: unknown
 - **License**: Apache-2.0
 - **Homepage**: https://github.com/block/goose
 - **Usage**: `nix run github:numtide/nix-ai-tools#goose-cli -- --help`
