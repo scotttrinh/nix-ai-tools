@@ -203,7 +203,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 
 - **Description**: CLI for Goose - a local, extensible, open source AI agent that automates engineering tasks
 - **Version**: 1.14.0
-- **Source**: binary
+- **Source**: unknown
 - **License**: Apache-2.0
 - **Homepage**: https://github.com/block/goose
 - **Usage**: `nix run github:numtide/nix-ai-tools#goose-cli -- --help`
@@ -238,7 +238,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### opencode
 
 - **Description**: AI coding agent built for the terminal
-- **Version**: 1.0.68
+- **Version**: 1.0.80
 - **Source**: unknown
 - **License**: MIT
 - **Homepage**: https://github.com/sst/opencode
