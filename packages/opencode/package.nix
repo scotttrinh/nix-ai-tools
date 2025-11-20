@@ -84,8 +84,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   ];
 
   patches = [
-    # NOTE: Get `_api.json` from the packaged `models-dev` package instead of https://models.dev/.
-    ./local-models-dev.patch
     # NOTE: Relax Bun version check to be a warning instead of an error
     ./relax-bun-version-check.patch
   ];
