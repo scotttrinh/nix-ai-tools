@@ -20,7 +20,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### amp
 
 - **Description**: CLI for Amp, an agentic coding tool in research preview from Sourcegraph
-- **Version**: 0.0.1763985694-g51fa6e
+- **Version**: 0.0.1764028904-g50ee11
 - **Source**: bytecode
 - **License**: unfree
 - **Homepage**: https://ampcode.com/
