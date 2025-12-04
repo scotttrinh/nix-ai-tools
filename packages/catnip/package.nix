@@ -7,23 +7,23 @@
 }:
 
 let
-  version = "0.11.3";
+  version = "0.11.4";
   sources = {
     x86_64-linux = {
       url = "https://github.com/wandb/catnip/releases/download/v${version}/catnip_${version}_linux_amd64.tar.gz";
-      hash = "sha256-Z6836xQe1MH0pz0QNtxmpQZpxgR+og4TKN4hwmM+rwU=";
+      hash = "sha256-MtuoIK5HVMFc7MexpTAwvmIHa95TcaciAOEjFwwdJW0=";
     };
     aarch64-linux = {
       url = "https://github.com/wandb/catnip/releases/download/v${version}/catnip_${version}_linux_arm64.tar.gz";
-      hash = "sha256-vIKFbKatoKC/IeH5UzbJnveyWFEtevax0OxGL9t5aAg=";
+      hash = "sha256-ZBVP9vcmFnhmdJBEUv/hAOe2TJHYQfIzg/N7hO6rof0=";
     };
     x86_64-darwin = {
       url = "https://github.com/wandb/catnip/releases/download/v${version}/catnip_${version}_darwin_amd64.tar.gz";
-      hash = "sha256-RrQmzSlJPQd6ltuvQd083o9dBHcZB5n+hQfk+j1dRq8=";
+      hash = "sha256-wL7ezaN3ODnwk9DwG+nl7RRBUAdB3JpO0UTGBcTCSTU=";
     };
     aarch64-darwin = {
       url = "https://github.com/wandb/catnip/releases/download/v${version}/catnip_${version}_darwin_arm64.tar.gz";
-      hash = "sha256-njMqGiz0dYlxlEtb3wm9SgQDuQcCe2RDjXyHZjEGjXk=";
+      hash = "sha256-xNnKurSWjfpwZ6lbXsdduqBP3NDgNOrx4jsUKarVYPo=";
     };
   };
   source =
