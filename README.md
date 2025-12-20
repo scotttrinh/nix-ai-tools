@@ -220,7 +220,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### kilocode-cli
 
 - **Description**: The open-source AI coding agent. Now available in your terminal.
-- **Version**: 0.17.0
+- **Version**: 0.17.1
 - **Source**: unknown
 - **License**: Apache-2.0
 - **Homepage**: https://kilocode.ai/cli
