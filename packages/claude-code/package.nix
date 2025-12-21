@@ -7,14 +7,14 @@
 
 buildNpmPackage rec {
   pname = "claude-code";
-  version = "2.0.74";
+  version = "2.0.75";
 
   src = fetchzip {
     url = "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-${version}.tgz";
-    hash = "sha256-J3m1KUO8Bkzwh3fLI96LoWw6VsSwoETcSq2IufeRW9E=";
+    hash = "sha256-3BdinltHR29yYz+celc46MoZO8qAyLnRkJYhL2b7MFU=";
   };
 
-  npmDepsHash = "sha256-DzopGygpb8Ex5EYi/sbljdmEg2tscPE5fzhxhl3k0tM=";
+  npmDepsHash = "sha256-w1vIIzXFpqZigpwgiYKr2rOmbFhDgfBzmmrGti/apdU=";
 
   nativeBuildInputs = [ makeWrapper ];
 
