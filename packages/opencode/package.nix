@@ -13,12 +13,12 @@
 
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "opencode";
-  version = "1.0.184";
+  version = "1.0.185";
   src = fetchFromGitHub {
     owner = "sst";
     repo = "opencode";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-qEVFORKMoaLTsBbs2D9aLaD1W4vbQppJ6fB+bHWLcgM=";
+    hash = "sha256-maCZOV7l9SwM2AWTHwq/o6iDN9cZJhqvKsyfDmBKvm4=";
   };
 
   node_modules = stdenvNoCC.mkDerivation {
@@ -72,7 +72,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     # NOTE: Required else we get errors that our fixed-output derivation references store paths
     dontFixup = true;
 
-    outputHash = "sha256-IFpFg+yBYiiE9SCu1WTc65W91gVuH6iJFxNCY7p8KAk=";
+    outputHash = "sha256-Eiuo0vy3ULJ3yxQ7QqyGYbLjcujecgfNbZZaqBT4Rps=";
     outputHashAlgo = "sha256";
     outputHashMode = "recursive";
   };
