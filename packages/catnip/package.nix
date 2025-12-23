@@ -7,7 +7,7 @@
 }:
 
 let
-  version = "null";
+  version = "0.11.4";
   sources = {
     x86_64-linux = {
       url = "https://github.com/wandb/catnip/releases/download/v${version}/catnip_${version}_linux_amd64.tar.gz";
