@@ -13,12 +13,12 @@
 
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "opencode";
-  version = "1.0.200";
+  version = "1.0.202";
   src = fetchFromGitHub {
     owner = "sst";
     repo = "opencode";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-dh+NUYHkyNIpcu4q4a6KMerdFp7nfOgB4I1LX71HmNA=";
+    hash = "sha256-SEq8Dcv4R4t9faEfGFb0dPYAFdkhq0e+rPNk7jqhvkU=";
   };
 
   node_modules = stdenvNoCC.mkDerivation {
