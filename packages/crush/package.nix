@@ -6,16 +6,16 @@
 }:
 buildGo125Module rec {
   pname = "crush";
-  version = "0.30.0";
+  version = "0.30.2";
 
   src = fetchFromGitHub {
     owner = "charmbracelet";
     repo = "crush";
     rev = "v${version}";
-    hash = "sha256-/M8f8mn8Z2w4JvawRFLcHIep8bfER3GMz4o0VOQpiFg=";
+    hash = "sha256-Khs3jY6PKs5OJK0oKdqjTolssSyaUrjKm+Nrtb2hCjI=";
   };
 
-  vendorHash = "sha256-90fj92fENJuAQ7sQGK/f2Nk1LQ16tcOHYr+s5AW/JZ4=";
+  vendorHash = "sha256-dywYVE7R5mz2bC1rwyg8CFTQYLANxaIP+WsXxQ9BK/Y=";
 
   nativeBuildInputs = [ installShellFiles ];
 
