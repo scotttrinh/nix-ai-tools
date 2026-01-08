@@ -38,7 +38,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### catnip
 
 - **Description**: Developer environment that's like catnip for agentic programming
-- **Version**: 0.11.4
+- **Version**: 0.12.0
 - **Source**: binary
 - **License**: Apache-2.0
 - **Homepage**: https://github.com/wandb/catnip
