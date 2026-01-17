@@ -8,24 +8,24 @@
 
 let
   pname = "cursor-agent";
-  version = "2026.01.09-231024f";
+  version = "2026.01.17-d239e66";
 
   srcs = {
     x86_64-linux = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/linux/x64/agent-cli-package.tar.gz";
-      hash = "sha256-FT4dPRYXWVLnl02KevhiMuh6F3P9Bu+YJXiWrQtH2vo=";
+      hash = "sha256-gZPjmxJxppni1tBL+4KNzP7It8vN0qG0e+xG42Cu/tM=";
     };
     aarch64-linux = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/linux/arm64/agent-cli-package.tar.gz";
-      hash = "sha256-23P7GxKzb66HNYasW87wgSFvL7PseXrZJ29Gewqx1O0=";
+      hash = "sha256-+ZTHbrRzte79MPrgCBb+Yj8GZaPCcDjc0v9vLI8wmoI=";
     };
     x86_64-darwin = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/darwin/x64/agent-cli-package.tar.gz";
-      hash = "sha256-kYXTaddjTkuz+tzWJHU4Bk80jABTbQdVKLjEKvSBgX8=";
+      hash = "sha256-6LNXzVh7hpAFZWCZUECJKIv9RzuWih3G/+9cFjof2zM=";
     };
     aarch64-darwin = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/darwin/arm64/agent-cli-package.tar.gz";
-      hash = "sha256-wOPvhIOkg8NQch5GLe5JbK2Xl2vTboVCPPMa+aMV+MI=";
+      hash = "sha256-mUjH/9ADFgsCdCvUmSUMbepJUHA/4bz7I01c51tlAM8=";
     };
   };
 
