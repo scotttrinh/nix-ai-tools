@@ -8,21 +8,21 @@
 }:
 
 let
-  version = "0.57.6";
+  version = "0.57.8";
 
   # Map platforms to Factory AI download URLs
   sources = {
     x86_64-linux = {
       url = "https://downloads.factory.ai/factory-cli/releases/${version}/linux/x64/droid";
-      hash = "sha256-fVjXjdRXfIChmoJZJrOlcU1yiEB+Otu7Af5djtJtoqs=";
+      hash = "sha256-1bmsR2zAgIwseTJegE4cOngPV52XE2ZzHp6RC7YQZAY=";
     };
     aarch64-linux = {
       url = "https://downloads.factory.ai/factory-cli/releases/${version}/linux/arm64/droid";
-      hash = "sha256-1w3dVt3UrQqbVO3TVOd00iEJv9UewjNtPLG33HFzv5Y=";
+      hash = "sha256-2E49zNvZyvUZDmMwUerWRmUPTsPR/gx++X695Jy7bsE=";
     };
     aarch64-darwin = {
       url = "https://downloads.factory.ai/factory-cli/releases/${version}/darwin/arm64/droid";
-      hash = "sha256-xyWRDpGOLFKodCow5gGgc7UUpwpPDae7v3P+o1mklbY=";
+      hash = "sha256-hxN8ym8VkChQyiWwFucpA13oIo+gOr2Yl5O3ecpQEIE=";
     };
   };
 
