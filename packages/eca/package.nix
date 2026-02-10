@@ -1,7 +1,7 @@
 { pkgs }:
 
 let
-  version = "0.99.0";
+  version = "0.100.1";
 
   # Function to create native binary derivation for each platform
   mkNativeBinary =
@@ -46,25 +46,25 @@ if pkgs.stdenv.hostPlatform.system == "x86_64-linux" then
   mkNativeBinary {
     system = "x86_64-linux";
     url = "https://github.com/editor-code-assistant/eca/releases/download/${version}/eca-native-linux-amd64.zip";
-    hash = "sha256-UEMs8Bg9E594lfMTAqnp8kNTH/nAf3gPIcUEPLgBZws=";
+    hash = "sha256-xwMTT59chv5qdgZL9RxO8dn1VA/dtpkZYTvD8WyXuEk=";
   }
 else if pkgs.stdenv.hostPlatform.system == "aarch64-linux" then
   mkNativeBinary {
     system = "aarch64-linux";
     url = "https://github.com/editor-code-assistant/eca/releases/download/${version}/eca-native-linux-aarch64.zip";
-    hash = "sha256-Oc8PPJ+llB982uvqjut2xUa3HzGwmSV+b5LZUK7nYRc=";
+    hash = "sha256-8Lj1Ns4x7lotRlxklLUKTI4vX8FKONti8ziFvnWLYl4=";
   }
 else if pkgs.stdenv.hostPlatform.system == "x86_64-darwin" then
   mkNativeBinary {
     system = "x86_64-darwin";
     url = "https://github.com/editor-code-assistant/eca/releases/download/${version}/eca-native-macos-amd64.zip";
-    hash = "sha256-ITM8PylvjTrqPI6wug/k3/L+UP5OKoV+9AcSUtB9VhE=";
+    hash = "sha256-HnlGfQTpe5w7t8FXMjy4MroeWGciSNnS0PVJRefeyZQ=";
   }
 else if pkgs.stdenv.hostPlatform.system == "aarch64-darwin" then
   mkNativeBinary {
     system = "aarch64-darwin";
     url = "https://github.com/editor-code-assistant/eca/releases/download/${version}/eca-native-macos-aarch64.zip";
-    hash = "sha256-nFRFEGmdw3fIJxgvQgrcmzVDKZNCtZ11CzUcq850MjM=";
+    hash = "sha256-hztPUW3BLCnMk3imhUl1At7+hPok4q5PCwHlyXpNyEg=";
   }
 else
   # Fallback to JAR version for unsupported platforms
