@@ -51,20 +51,20 @@ let
       outputHashMode = "recursive";
     };
 
-  version = "1.35.7";
+  version = "1.36.0";
 
   src = fetchFromGitHub {
     owner = "MrLesk";
     repo = "Backlog.md";
     rev = "v${version}";
-    hash = "sha256-gAPVu9B8Isog7vZ7IFYaaElSqJlPW/dJK3M0q/6nYeU=";
+    hash = "sha256-0IQJzfXn1aVhMft5e66Fxbkvm1H5F+/nF3dzIwDnzyM=";
   };
 
   # Create a fixed-output derivation for dependencies
   node_modules = fetchBunDeps {
     pname = "backlog-md-bun-deps";
     inherit version src;
-    hash = "sha256-sIIj5i1Gkuu8Z7RqVI694h7f8JTOsAzOibS/Dc+FHEU=";
+    hash = "sha256-7rkHnDaQOsaLh8GRbRjQezB2OD32FcnK+iE3LS1RrUA=";
   };
 in
 stdenv.mkDerivation rec {
