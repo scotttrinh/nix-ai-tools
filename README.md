@@ -47,7 +47,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### claude-code
 
 - **Description**: Agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster
-- **Version**: 2.1.44
+- **Version**: 2.1.45
 - **Source**: source
 - **License**: unfree
 - **Homepage**: https://github.com/anthropics/claude-code
