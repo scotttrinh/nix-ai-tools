@@ -10,7 +10,7 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "goose-cli";
-  version = "1.24.0";
+  version = "1.25.0";
 
   src = fetchFromGitHub {
     owner = "block";
