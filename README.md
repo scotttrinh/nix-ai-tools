@@ -256,7 +256,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### spec-kit
 
 - **Description**: Specify CLI, part of GitHub Spec Kit. A tool to bootstrap your projects for Spec-Driven Development (SDD)
-- **Version**: 0.1.4
+- **Version**: 0.1.5
 - **Source**: source
 - **License**: MIT
 - **Homepage**: https://github.com/github/spec-kit
