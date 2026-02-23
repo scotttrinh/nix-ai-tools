@@ -7,24 +7,24 @@
 }:
 
 let
-  version = "0.3.5";
+  version = "0.3.6";
 
   sources = {
     x86_64-linux = {
       url = "https://cli.coderabbit.ai/releases/${version}/coderabbit-linux-x64.zip";
-      hash = "sha256-2j4wR6QJ36GsnN7yrBgvCWWb6l7DS29v4Sl4T16H7po=";
+      hash = "sha256-X87wVqXBjaZaPz/ER/ExyV5EqZqE7IudlRF2cOFL04A=";
     };
     aarch64-linux = {
       url = "https://cli.coderabbit.ai/releases/${version}/coderabbit-linux-arm64.zip";
-      hash = "sha256-LTrYcu2eYalLOSD+Su8sJ8hwiIQtHshnHWyL2MjvOFU=";
+      hash = "sha256-XDmdcQHoEBqq1Z6OGrRa96/oXRNpCnPr4P0pa40wPEo=";
     };
     x86_64-darwin = {
       url = "https://cli.coderabbit.ai/releases/${version}/coderabbit-darwin-x64.zip";
-      hash = "sha256-+AgQeptoac3Cg4A3Ssmui2ABqedIubYuB7lRp/B3WZ8=";
+      hash = "sha256-daJTcCypYbZGqQa2Z3BshaeoxrdtMxTJSUXgDbILu/4=";
     };
     aarch64-darwin = {
       url = "https://cli.coderabbit.ai/releases/${version}/coderabbit-darwin-arm64.zip";
-      hash = "sha256-w0PLGaKvsOYlHMWJW48fJUekEXSWdcECambWju8LdIE=";
+      hash = "sha256-s5A/FDmEQ28kGyQniV5entMAdjeLIR+/oC/DiJocw6k=";
     };
   };
 
