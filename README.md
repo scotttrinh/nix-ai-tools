@@ -102,7 +102,7 @@ This repository uses GitHub Actions to automatically update all packages and fla
 #### coderabbit-cli
 
 - **Description**: AI-powered code review CLI tool
-- **Version**: 0.3.6
+- **Version**: 0.3.7
 - **Source**: binary
 - **License**: unfree
 - **Homepage**: https://coderabbit.ai
