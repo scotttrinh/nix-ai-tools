@@ -7,11 +7,11 @@
 
 buildNpmPackage (finalAttrs: {
   pname = "copilot-cli";
-  version = "1.0.3";
+  version = "1.0.4";
 
   src = fetchurl {
     url = "https://registry.npmjs.org/@github/copilot/-/copilot-${finalAttrs.version}.tgz";
-    hash = "sha256-BJ7/G53oaudCWOciXozu/g02nCk8gGXoKFzWmp78XmU=";
+    hash = "sha256-pMUjWAT0RJJnFfzjE+luyXebViSCAkyXhfeCLV/HO6M=";
   };
 
   # Dependencies are bundled in the tarball
